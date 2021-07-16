@@ -37,7 +37,7 @@ const MobileDropdown = styled(Dropdown)`
 
 const StyledButton = styled(Button)`
   color: #FFFFFF !important;
-  background-color: #ff992e !important;
+  background-color: #ff002a !important;
 `
 
 const UserBlock: React.FC<Props> = ({

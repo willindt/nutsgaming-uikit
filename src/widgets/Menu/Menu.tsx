@@ -217,10 +217,10 @@ const Menu: React.FC<NavProps> = ({
             href={homeLink?.href ?? "/"}
           />
           <StyledLinkContainer>
-            <StyledNavLink as="a" href={`https://charts.bogged.finance/?token=0xc28abfd5283e724f45ef71d59311d433b4b301fa`}>
+            <StyledNavLink as="a" href={`https://charts.bogged.finance/?token=0xe6e6a022b4d4e538ca0a1f47941cbbf3f9cc1467`}>
               <Text fontSize="20px">{t('menuchart')}</Text>
             </StyledNavLink>
-            <StyledNavLink as="a" href={`https://halwaswap.com/about`}>
+            <StyledNavLink as="a" href={`https://nutsgaming.net/#tokenomics`}>
               <Text fontSize="20px">{t('menuabout')}</Text>
             </StyledNavLink>
             <MobileDropdown

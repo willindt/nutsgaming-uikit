@@ -8,8 +8,8 @@ interface MobileLogoProps extends SvgProps {
 
 const Icon: React.FC<MobileLogoProps> = ({ isDark, ...props }) => {
   return (
-    <Svg viewBox="0 0 150 40" {...props}>
-      <image width="150" height="40" href={isDark ? '/images/egg/LogoTextNewDark.png' : '/images/egg/LogoTextNewWhite.png'}/>
+    <Svg viewBox="0 0 80 40" {...props}>
+      <image width="80" height="40" href={isDark ? '/images/egg/logo.png' : '/images/egg/logo.png'}/>
     </Svg>
   );
 };

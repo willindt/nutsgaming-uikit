@@ -17,13 +17,14 @@ const StyledLink = styled(Link)`
   display: flex;
   align-items: center;
   .mobile-icon {
-    width: 156px;
+    width: 80px;
     ${({ theme }) => theme.mediaQueries.nav} {
       display: none;
     }
   }
   .desktop-icon {
-    width: 156px;
+    padding-top: 20px;
+    width: 250px;
     display: none;
     ${({ theme }) => theme.mediaQueries.nav} {
       display: block;
@@ -43,11 +44,11 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
   return (
     <Flex>
       {isAbsoluteUrl ? (
-        <StyledLink as="a" href={href} aria-label="Pancake home page">
+        <StyledLink as="a" href={href} aria-label="Nuts Gaming home page">
           {innerLogo}
         </StyledLink>
       ) : (
-        <StyledLink to={href} aria-label="Pancake home page">
+        <StyledLink to={href} aria-label="Nuts Gaming home page">
           {innerLogo}
         </StyledLink>
       )}
